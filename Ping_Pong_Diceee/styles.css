@@ -1,0 +1,103 @@
+body
+{
+background-color: #393E46;
+}
+
+p
+{
+font-size: 2rem;
+color: #4ECCA3;
+font-family: 'Indie Flower', cursive;
+}
+
+img
+{
+width: 80%;
+}
+
+h1
+{
+font-family: 'Lobster', cursive;
+font-size: 8rem;
+color: #4ECCA3;
+text-shadow: 5px 0 #232931;
+text-align: center;
+margin: auto;
+}
+
+.img-container
+{
+text-align: center;
+margin-top: 20px;
+}
+
+.image-dice
+{
+display: inline-block;
+margin-right: 25px;
+}
+
+.btn {
+  background-color: #2BC4AD;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  color:#FFFFFF;
+  font-size: 20px;
+  padding:10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn:hover{
+	background-color: #30E3CB;
+	text-decoration: none;
+}	
+
+footer
+{
+color: #EEEEEE;
+text-align: center;
+font-family: 'Indie Flower', cursive;
+margin-top: 4%;
+}
+
+
+
+/*Media Query Section*/
+@media(max-width: 900px)
+{
+h1{
+font-size: 6rem;
+}
+
+.img-container{
+margin-bottom: 5%;
+}
+}
+
+
+@media(max-width: 600px)
+{
+.image-dice{
+width: 40%;
+}
+}
+
+
+@media(max-width: 555px)
+{
+h1{
+font-size: 5.8rem;
+}	
+}
+
+
+@media(max-width: 499px)
+{
+h1{
+font-size: 4.5rem;
+}	
+}
